@@ -54,6 +54,9 @@ streamlit run dashboard.py
 
 2. Atau langsung akses versi online:
 
+setelah melakuan run streamlit anda bisa deploy dashboard.py
+
+
 ---
 
 ## 🤝 Kontribusi
