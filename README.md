@@ -54,6 +54,10 @@ streamlit run dashboard.py
 
 2. Atau langsung akses versi online:
 
+setelah melakuan run streamlit anda bisa deploy dashboard.py
+<img src="./dashboard/image.png" alt="Dashboard Screenshot" width="80%"/>
+
+
 ---
 
 ## 🤝 Kontribusi
