@@ -53,11 +53,6 @@ streamlit run dashboard.py
 ```
 
 2. Atau langsung akses versi online:
-👉 [Klik di sini untuk melihat Dashboard](https://dicoding-tjan2lwsgz3l97a447szqk.streamlit.app/)
-
-<br/>
-
-<img src="./dashboard/ss.png" alt="Dashboard Screenshot" width="80%"/>
 
 ---
 
