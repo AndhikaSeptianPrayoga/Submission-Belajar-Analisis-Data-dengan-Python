@@ -1,45 +1,73 @@
-# Submission Dicoding "Belajar Data Analytics dengan Python"
+# 📊 Submission Dicoding - Belajar Data Analytics dengan Python
 
-Submission proyek Analisis Data dari kelas Dicoding "Belajar Analisis Data dengan Python". Proyek ini berisi eksplorasi data e-commerce publik untuk menjawab pertanyaan bisnis melalui analisis data dan visualisasi dengan Python, pandas, matplotlib, dan seaborn.
-## Deskripsi
+Selamat datang di repositori proyek submission dari kelas **Dicoding: Belajar Analisis Data dengan Python**. Proyek ini berfokus pada analisis dataset publik E-Commerce untuk menjawab pertanyaan-pertanyaan bisnis yang relevan menggunakan **Python** dan pustaka data seperti **Pandas**, **Matplotlib**, **Seaborn**, dan **Streamlit**.
 
-Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis.
+---
 
-## Struktur Direktori
+## 📌 Deskripsi Proyek
 
-- **/data**: Direktori ini berisi data yang digunakan dalam proyek, dalam format .csv .
-- **/dashboard**: Direktori ini berisi main.py yang digunakan untuk membuat dashboard hasil analisis data.
-- **Proyek_Analisis_Data_E_Commerce.ipynb**: File ini yang digunakan untuk melakukan analisis data.
+Proyek ini bertujuan untuk mengeksplorasi dan menganalisis dataset penjualan pada platform E-Commerce guna menemukan **insight penting** yang dapat digunakan untuk mendukung pengambilan keputusan bisnis.
 
-## Instalasi
+Beberapa hal yang dianalisis meliputi:
+- Produk terlaris dan kurang diminati
+- Total pengeluaran pelanggan
+- Tren penjualan dari waktu ke waktu
+- Persebaran pelanggan berdasarkan wilayah geografis
 
-1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
+---
 
-   ```shell
-   [git clone https://github.com/Mazwan98/dicoding.git](https://github.com/AndhikaSeptianPrayoga/Submission-Belajar-Analisis-Data-dengan-Python.git)
-   ```
+## 📁 Struktur Direktori
 
-2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
+```
+├── /data              → Dataset utama dalam format .csv
+├── /dashboard         → Dashboard interaktif berbasis Streamlit
+│   └── dashboard.py   → Script utama untuk dashboard
+├── Notebook.ipynb     → Notebook utama analisis data
+├── /dashboard/ss.png  → Cuplikan tampilan dashboard
+```
 
-   ```shell
-   pip install streamlit
-   ```
+---
 
-## Penggunaan
+## ⚙️ Instalasi
 
-1. Masuk ke direktori proyek (Local):
+1. **Clone repository** ini ke komputer lokal Anda:
 
-   ```shell
-   cd dicoding/dashboard/
-   streamlit run dashboard.py
-   ```
+```bash
+git clone https://github.com/AndhikaSeptianPrayoga/Submission-Belajar-Analisis-Data-dengan-Python.git
+```
 
-   Atau bisa dengan kunjungi website ini [Project Data Analytics](https://dicoding-tjan2lwsgz3l97a447szqk.streamlit.app/)
+2. **Install dependencies** yang dibutuhkan:
 
-   <img src="./dashboard/ss.png" alt="Streamlit logo"></img>
+```bash
+pip install streamlit pandas matplotlib seaborn
+```
 
+---
 
+## 🚀 Cara Menjalankan Dashboard
 
-## Kontribusi
+1. Arahkan ke folder dashboard:
 
-Anda dapat berkontribusi pada proyek ini dengan melakukan pull request. Pastikan untuk menjelaskan perubahan yang Anda usulkan secara jelas dan menyeluruh.
+```bash
+cd dashboard
+streamlit run dashboard.py
+```
+
+2. Atau langsung akses versi online:
+👉 [Klik di sini untuk melihat Dashboard](https://dicoding-tjan2lwsgz3l97a447szqk.streamlit.app/)
+
+<br/>
+
+<img src="./dashboard/ss.png" alt="Dashboard Screenshot" width="80%"/>
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi terbuka untuk siapa saja! Silakan fork repository ini dan buat pull request untuk penambahan fitur, perbaikan bug, atau pengembangan lainnya. Pastikan perubahan dijelaskan dengan jelas.
+
+---
+
+## 🙌 Terima Kasih
+
+Terima kasih sudah mengunjungi proyek ini! Semoga bermanfaat dan bisa jadi referensi pembelajaran bersama 😊
