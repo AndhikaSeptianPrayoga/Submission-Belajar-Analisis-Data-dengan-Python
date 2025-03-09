@@ -21,9 +21,9 @@ st.sidebar.markdown("""
 # Load data
 @st.cache_data
 def load_data():
-    data = pd.read_csv('main-data.csv')
+    path = os.path.join(os.path.dirname(__file__), '../data/main-data.csv')
+    data = pd.read_csv(path)
     return data
-
 data = load_data()
 
 # Calculate product sales
