@@ -23,7 +23,6 @@ Beberapa hal yang dianalisis meliputi:
 ├── /dashboard         → Dashboard interaktif berbasis Streamlit
 │   └── dashboard.py   → Script utama untuk dashboard
 ├── Notebook.ipynb     → Notebook utama analisis data
-├── /dashboard/ss.png  → Cuplikan tampilan dashboard
 ```
 
 ---
