@@ -4,6 +4,7 @@ import seaborn as sns
 import streamlit as st
 import urllib.request
 import matplotlib.image as mpimg
+import os
 
 # Set page configuration
 st.set_page_config(page_title="Analisis Data Penjualan pada Dataset E-Commerce Publik", layout="wide")
